@@ -1,5 +1,6 @@
 import React from 'react';
 import { GameState } from '../types/chess';
+import clsx from 'clsx';
 
 interface GameInfoProps {
   gameState: GameState;
